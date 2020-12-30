@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #header.header-wrapper {
-	background: url(../images/header-bg.jpg) no-repeat center center;
+	background: url(../images/main-bg.jpg) no-repeat center center;
 	background-size: cover;
 	display: table;
 	height: 100vh;
@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #header .logo, #header .toggleDrawer{
-	font-family: 'Alegreya SC';
+	font-family: 'Fantasy';
 	color: white;
 }
 
@@ -281,7 +281,11 @@ h1, h2, h3, h4, h5, h6{
 	color: white;
 }
 
-
+#about-us {
+	background-image: url(../images/newsletter-bg.png);
+	color: white;
+	background-color: #6e7179;
+}
 
 
 /*////////////////////////////////////////////////////////////////////////
@@ -350,6 +354,14 @@ h1, h2, h3, h4, h5, h6{
     padding: 0 25px;
 }
 
+/*////////////////////////////////////////////////////////////////////////
+//  07 - about-us
+///////////////////////////////////////////////////////////////////////*/
+
+
+#about-us .about img {
+	margin-bottom: 20px;
+}
 
 
 
