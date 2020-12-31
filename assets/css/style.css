@@ -101,6 +101,14 @@ h1, h2, h3, h4, h5, h6{
     color: #6a6a6a;
 }
 
+p {
+	color: white;
+	font-size: 20px;
+}
+
+li {
+	font-size: 25px;
+}
 
 /*////////////////////////////////////////////////////////////////////////
 //  02 - Header
@@ -507,7 +515,7 @@ h1, h2, h3, h4, h5, h6{
 	background: url(../images/portfolio.jpg) no-repeat center center;
 	background-size: cover;
 	display: table;
-	height: 60vh;
+	height: 80vh;
 	width: 100%;
 	position: relative;
 	z-index: 1;
@@ -517,7 +525,7 @@ h1, h2, h3, h4, h5, h6{
 @media screen and (max-width: 767px) and (orientation: landscape) {
     #port.port-wrapper {
 		height: auto;
-		min-height: 60vh;
+		min-height: 80vh;
 		padding: 0px; 
 	} 
 }
@@ -586,7 +594,7 @@ h1, h2, h3, h4, h5, h6{
     width: 50px;
 }
 #port .bottom a {
-    opacity: 0.7;
+    opacity: 0.9;
 }
 #port .bottom a:hover {
     opacity: 1;
@@ -602,3 +610,4 @@ h1, h2, h3, h4, h5, h6{
 	color: white;
 	font-family: 'Alegreya SC';
 }
+
