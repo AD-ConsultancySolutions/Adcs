@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #header.header-wrapper {
-	background: url(../images/main-bg.jpg) no-repeat center center;
+	background: url(../images/adcs.jpeg) no-repeat center center;
 	background-size: cover;
 	display: table;
 	height: 100vh;
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #header .top.solid {
-    background: #475B6F;
+    background: #fcfdfd;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -164,8 +164,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #header .logo, #header .toggleDrawer{
-	font-family: 'Fantasy';
-	color: white;
+	font-family: 'Comic Sans MS';
+	color: rgb(20, 151, 140);
 }
 
 #header .slogan{
@@ -261,6 +261,7 @@ h1, h2, h3, h4, h5, h6{
 
 .block-body {
 	margin-top: 10px;
+	font-family: "Fantasy";
 }
 
 #services {
@@ -495,4 +496,109 @@ h1, h2, h3, h4, h5, h6{
 	#header {
 		background-size: cover;
 	}
+}
+
+#port {	
+	position: relative;
+	padding: 0 !important;
+}
+
+#port.port-wrapper {
+	background: url(../images/portfolio.jpg) no-repeat center center;
+	background-size: cover;
+	display: table;
+	height: 60vh;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	overflow-x: hidden; 
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    #port.port-wrapper {
+		height: auto;
+		min-height: 60vh;
+		padding: 0px; 
+	} 
+}
+
+#port.port-wrapper .port-wrapper-inner {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle; 
+}
+
+#port .top {
+	position:fixed;
+	top:0;
+	width: 100%;
+	padding: 30px;
+	height: auto;
+	z-index: 500;
+	-o-transition: all .5s;
+	-ms-transition: all .5s;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;	
+	transition: all .5s;		
+}
+
+#port .top.solid {
+    background: #fcfdfd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#port .top h1{
+	margin-bottom: 0;
+}
+#port .top.solid .toggleDrawer i {
+    padding-top: 8px;
+}
+
+#port .logo, #port .toggleDrawer{
+	font-family: 'Comic Sans MS';
+	color: rgb(20, 151, 140);
+}
+
+#port .slogan{
+	font-size: 4em;
+	margin-bottom: 15px;
+	line-height: 1em;
+	font-family: 'Nixie One';
+	color: white;
+}
+
+#port .secondary-slogan{
+	font-size: 1.6em;
+	color: rgba(255,255,255,.5);
+	line-height: 1em;
+	font-family: 'Alegreya SC';
+}
+
+#port .bottom {
+    bottom: 10%;
+	display: block;
+	position: absolute;
+	width: 100%;
+	z-index: 3;
+}
+#port .bottom a img {
+    width: 50px;
+}
+#port .bottom a {
+    opacity: 0.7;
+}
+#port .bottom a:hover {
+    opacity: 1;
+}
+
+#port-bg {
+	background-image: url(../images/blue_mac2.jpg);
+	color: white;
+}
+
+#port-bg h1{
+	margin-bottom: 10px;
+	color: white;
+	font-family: 'Alegreya SC';
 }
