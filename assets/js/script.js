@@ -86,9 +86,11 @@
 		if (scrollTop > 300 || jQuery(window).width() < 700) { 
 			jQuery('#header .top').addClass('solid');
 			jQuery('#port .top').addClass('solid');
+			jQuery('#about .top').addClass('solid');
 		} else {
 			jQuery('#header .top').removeClass('solid');
 			jQuery('#port .top').removeClass('solid');	
+			jQuery('#about .top').removeClass('solid');
 		}
 	}
 
