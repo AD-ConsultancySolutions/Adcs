@@ -83,15 +83,17 @@
 	function setHeaderBackground() {		
 		var scrollTop = jQuery(window).scrollTop(); // our current vertical position from the top	
 		
-		if (scrollTop > 300 || jQuery(window).width() < 700) { 
-			jQuery('#header .top').addClass('solid');
-			jQuery('#port .top').addClass('solid');
-			jQuery('#about .top').addClass('solid');
-		} else {
-			jQuery('#header .top').removeClass('solid');
-			jQuery('#port .top').removeClass('solid');	
-			jQuery('#about .top').removeClass('solid');
-		}
+	// 	if (scrollTop > 300 || jQuery(window).width() < 700) { 
+	// 		jQuery('#header .top').addClass('solid');
+	// 		jQuery('#port .top').addClass('solid');
+	// 		jQuery('#about .top').addClass('solid');
+	// 		jQuery('#services .top').addClass('solid');
+	// 	} else {
+	// 		jQuery('#header .top').removeClass('solid');
+	// 		jQuery('#port .top').removeClass('solid');	
+	// 		jQuery('#about .top').removeClass('solid');
+	// 		jQuery('#services .top').removeClass('solid');
+	// 	}
 	}
 
 

@@ -115,7 +115,7 @@ li {
 }
 
 #header.header-wrapper {
-	background: url(../images/adcs.jpeg) no-repeat center center;
+	background: url(../images/home-bg.jpg) no-repeat center center;
 	background-size: cover;
 	display: table;
 	height: 100vh;
@@ -169,6 +169,10 @@ li {
 #header .logo, #header .toggleDrawer{
 	font-family: 'Comic Sans MS';
 	color: rgb(20, 151, 140);
+	max-width: 200px;
+    width: 100%;
+    margin: 0;
+    padding-left: 15px;
 }
 
 #header .slogan{
@@ -318,7 +322,7 @@ li {
 	z-index: 1;
 }
 .recent-work:before {
-    background: rgba(2, 56, 58, 0.7);
+    background: rgba(249, 250, 250, 0.7);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -619,10 +623,10 @@ li {
 }
 
 #about.about-wrapper {
-	background: url(../images/HOME-CONTACT-BG.jpg) no-repeat center center;
+	background: url(../images/about_us.jpg) no-repeat center center;
 	background-size: cover;
 	display: table;
-	height: 80vh;
+	height: 400px;
 	width: 100%;
 	position: relative;
 	z-index: 1;
@@ -708,18 +712,174 @@ li {
 }
 
 #about-bg {
-	background-image: url(../images/HOME-TESTIMONIALS-BG.jpg);
+	background-image: url(../images/AboutUs_main_BG.jpg);
 	color: white;
 }
 
-#about-bg h1{
+#about-bg h3{
+	margin-bottom: 5px;
+	color: rgb(77, 29, 29);
+	font-family: 'Alegreya SC';
+	font-weight: 900;
+}
+
+#about-bg p {
+	color: rgb(7, 7, 7);
+	font-size: 30px;
+	font-family: 'cursive';
+}
+
+
+#services {	
+	position: relative;
+	padding: 0 !important;
+}
+
+#services.services-wrapper {
+	background: url(../images/services.jpg) no-repeat center center;
+	background-size: cover;
+	display: table;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	overflow-x: hidden; 
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    #services.services-wrapper {
+		height: auto;
+		min-height: 80vh;
+		padding: 0px; 
+	} 
+}
+
+#services.services-wrapper .services-wrapper-inner {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle; 
+}
+
+#services .top {
+	position:fixed;
+	top:0;
+	width: 100%;
+	padding: 30px;
+	height: auto;
+	z-index: 500;
+	-o-transition: all .5s;
+	-ms-transition: all .5s;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;	
+	transition: all .5s;		
+}
+
+#services .top.solid {
+    background: #fcfdfd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#services .top h1{
+	margin-bottom: 0;
+}
+#services .top.solid .toggleDrawer i {
+    padding-top: 8px;
+}
+
+#services .logo, #services .toggleDrawer{
+	font-family: 'Comic Sans MS';
+	color: rgb(20, 151, 140);
+}
+
+#services .slogan{
+	font-size: 4em;
+	margin-bottom: 15px;
+	line-height: 1em;
+	font-family: 'Nixie One';
+	color: white;
+}
+
+#services .secondary-slogan{
+	font-size: 1.6em;
+	color: rgba(255,255,255,.5);
+	line-height: 1em;
+	font-family: 'Alegreya SC';
+}
+
+#services .bottom {
+    bottom: 10%;
+	display: block;
+	position: absolute;
+	width: 100%;
+	z-index: 3;
+}
+#services .bottom a img {
+    width: 50px;
+}
+#services .bottom a {
+    opacity: 0.9;
+}
+#services .bottom a:hover {
+    opacity: 1;
+}
+
+#services-bg {
+	background-image: url(../images/wood-320x240.jpg);
+	color: white;
+}
+
+#services-bg h1{
 	margin-bottom: 10px;
 	color: white;
 	font-family: 'Alegreya SC';
 }
 
-#about p {
+#services p {
 	color: white;
 	font-size: 50px;
 	font-family: 'Times New Roman', Times, serif;
+}
+
+
+blockquote {
+    padding: 30px 30px 25px 100px;
+    margin: 20px 0;
+    background-color: rgba(252, 252, 252, 0.5);
+    position: relative;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	font-style: oblique;
+}
+
+blockquote:before {
+    content: "\201C";
+    color: #000000;
+    font-size: 120px;
+    position: absolute;
+    left: 30px;
+    line-height: 1;
+    top: 10px;
+    height: 50px;
+}
+
+
+.navbar {
+    position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: .5rem 1rem
+}
+
+.navbar-brand {
+    max-width: 200px;
+    width: 100%;
+    margin: 0;
+    padding-left: 15px;
 }
