@@ -333,7 +333,7 @@ li {
 	transition: all .2s;
 }
 .recent-work:hover {
-    background-size: 200%;
+    background-size: 70%;
     background-position: center;
 }
 .recent-work:hover:before, .recent-work:hover span {
