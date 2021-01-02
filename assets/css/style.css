@@ -275,9 +275,9 @@ li {
 	background-image: url(../images/traffic.jpg);
 	color: white;
 }
-#parallax {
-	background-image: url(../images/blue_mac2.jpg);
-	color: white;
+#portfolio {
+	background-color: white;
+	color: black;
 }
 #contact {
 	background-image: url(../images/newsletter-bg.png);
@@ -394,6 +394,7 @@ li {
 
 #testimonials{
 	text-align: center;
+	background-color: white;
 }
 #testimonials .testimonial > img {
     border-radius: 100%;
@@ -440,7 +441,7 @@ li {
 ///////////////////////////////////////////////////////////////////////*/
 
 
-#footer{ background: #2B3E51; color: white;}
+#footer{ background: #2B3E51; color: whitesmoke;}
 
 
 
@@ -626,7 +627,7 @@ li {
 	background: url(../images/about_us.jpg) no-repeat center center;
 	background-size: cover;
 	display: table;
-	height: 400px;
+	height: 100vh;
 	width: 100%;
 	position: relative;
 	z-index: 1;
@@ -694,23 +695,6 @@ li {
 	font-family: 'Alegreya SC';
 }
 
-#about .bottom {
-    bottom: 10%;
-	display: block;
-	position: absolute;
-	width: 100%;
-	z-index: 3;
-}
-#about .bottom a img {
-    width: 50px;
-}
-#about .bottom a {
-    opacity: 0.9;
-}
-#about .bottom a:hover {
-    opacity: 1;
-}
-
 #about-bg {
 	background-image: url(../images/AboutUs_main_BG.jpg);
 	color: white;
@@ -718,7 +702,7 @@ li {
 
 #about-bg h3{
 	margin-bottom: 5px;
-	color: rgb(77, 29, 29);
+	color: rgb(12, 145, 23);
 	font-family: 'Alegreya SC';
 	font-weight: 900;
 }
@@ -727,6 +711,7 @@ li {
 	color: rgb(7, 7, 7);
 	font-size: 30px;
 	font-family: 'cursive';
+	font-weight: 900;
 }
 
 
@@ -864,22 +849,7 @@ blockquote:before {
 }
 
 
-.navbar {
-    position: relative;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-ms-flex-align: center;
-	align-items: center;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
-	padding: .5rem 1rem
-}
 
-.navbar-brand {
-    max-width: 200px;
-    width: 100%;
-    margin: 0;
-    padding-left: 15px;
-}
+.fa-cog {
+	color: white;
+  }
