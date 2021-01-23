@@ -171,3 +171,13 @@ $('a[href*="#"]')
       }
     }
   });
+
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+
+  $(document).ready(function(){
+	$("#close").click(function(){
+	  $("events").hide();
+	});
+  });
