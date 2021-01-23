@@ -178,7 +178,7 @@ li {
 }
 
 #header .logo img{
-	width: 180px;
+	width: 100px;
 	height: 7vh;
 }
 
@@ -300,7 +300,7 @@ li {
 }
 
 #events {
-	background-image: url("https://media.giphy.com/media/VJ0eVfH6sg0P8q7TTS/giphy.gif");
+	background-image: url(../images/event.jpg);
 	color: white;
 	background-color: white;
 }
