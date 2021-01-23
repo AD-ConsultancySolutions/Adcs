@@ -178,8 +178,8 @@ li {
 }
 
 #header .logo img{
-	width: 100%;
-	height: 70px;
+	width: 180px;
+	height: 7vh;
 }
 
 
@@ -372,11 +372,6 @@ li {
 	color: white;
 	font-family: 'Trebuchet MS';
 }
-
-/*////////////////////////////////////////////////////////////////////////
-//  05 - up coming events
-///////////////////////////////////////////////////////////////////////*/
-
 
 /*////////////////////////////////////////////////////////////////////////
 //  05 - Recent works
@@ -666,6 +661,11 @@ li {
 	color: #cf9b63
 }
 
+#port .logo img{
+	width: 180px;
+	height: 7vh;
+}
+
 #port .slogan{
 	font-size: 8em;
 	margin-bottom: 15px;
@@ -792,6 +792,11 @@ li {
 #about .logo, #about .toggleDrawer{
 	font-family: 'Comic Sans MS';
 	color: #cf9b63
+}
+
+#about .logo img{
+	width: 180px;
+	height: 7vh;
 }
 
 #about .slogan{
@@ -931,6 +936,11 @@ li {
 #services .logo, #services .toggleDrawer{
 	font-family: 'Comic Sans MS';
 	color: #cf9b63
+}
+
+#services .logo img{
+	width: 180px;
+	height: 7vh;
 }
 
 #services .slogan{
